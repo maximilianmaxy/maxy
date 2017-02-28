@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>My music Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap-3/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <script src="bootstrap-3/jquery/jquery-3.1.1.js" type="text/javascript"></script>
+        <script src="bootstrap-3/js/bootstrap.js" type="text/javascript"></script>
+        <link href="musicappcss.css" rel="stylesheet" type="text/css"/>
+    </head> 
+    <body>
+        <div id="wrapper">
+            <audio id="mytrack" controls>
+                <source src="my life by adekunle gold.mp3" type="audio/mp3"/>
+            </audio>
+            <nav>
+                <div id="defaultbar">
+                    <div id="progressbar"></div>
+                </div>
+                <div id="controls">
+                    <button type="button" id="playbtn"></button>
+                    <button type="button" id="mutebtn"></button>
+                    <span id="currentTime">0:00</span>
+                    /<span id="fullDuration">0:00</span>
+                </div>
+            </nav>
+        </div> 
+        <script type="text/javascript" src="controls.js"></script>
+    </body>
+</html>

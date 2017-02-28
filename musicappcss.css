@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-Feb-2017, 09:56:01
+    Author     : Codeplus Academy
+*/
+body{
+    background-color: #101010;
+}
+
+#wrapper{
+    width: 650px;
+    margin: 10px auto;
+}
+
+nav{
+    background-color: rgb(250,250, 250);
+    width: 650px;
+    padding-bottom: 5px;
+}
+
+#defaultbar{
+    width: 650px;
+    position: relative;
+    background-color: #606060;
+    height: 10px;
+}
+
+#progressbar{
+    position: absolute;
+    height: 10px;
+    background-color: #3498db;
+    width: 0px;
+}
+
+#playbtn{
+    background-color: rgb(250, 250, 250);
+    border: none;
+    height: 32px;
+    width: 32px;
+    background-image: url(Play20.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mutebtn{
+    background-color: rgb(250, 250, 250);
+    border: none;
+    height: 32px;
+    width: 32px;
+    background-image: url(Volume2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mutebtn:active, #playbtn:active{
+    position: relative;
+    top: 2px;
+}
